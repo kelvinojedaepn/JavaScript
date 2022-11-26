@@ -52,3 +52,44 @@ console.log(listaLibros)
 
 var multiplicacion = 12
 console.log(multiplicacion *= 2)
+
+var caracter = 'hola';
+console.log(caracter)
+    // caracter = 'hola";
+
+var caracteresConComilla = "soy una cadena con \"Comillas\""
+console.log(caracteresConComilla)
+caracteresConComilla = 'soy una cadena con "Comillas"'
+console.log(caracteresConComilla)
+
+
+// Secuencias de escape
+// \' comilla simple
+// \" Comillas dobles
+// \\ barra invertida
+// \n Linea nueva
+// \r retorno de carro
+// \t tabulación
+// \b retroceso
+// \f salto de página
+
+var cadenaCaracter = "hola /n espace"
+console.log(cadenaCaracter)
+
+var miCadena = 'A B'
+var miCadena01 = 'Javascript'
+console.log(miCadena.length)
+console.log(miCadena01.length)
+console.log(miCadena01[0])
+console.log(miCadena01[1])
+
+miCadena01[0] = 'H'
+console.log(miCadena01)
+console.log(miCadena01[10])
+
+// Obtener el ultimo indice
+console.log(miCadena01[miCadena01.length - 1])
+
+// Arreglos dentro de JAvascript
+var miArreglo = ['john', 24]
+console.log(miArreglo)
