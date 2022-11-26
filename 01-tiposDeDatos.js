@@ -93,3 +93,41 @@ console.log(miCadena01[miCadena01.length - 1])
 // Arreglos dentro de JAvascript
 var miArreglo = ['john', 24]
 console.log(miArreglo)
+console.log(miArreglo[1])
+var estudiantes = ["norma", "gino", "emili"]
+console.log(estudiantes)
+
+// Arreglos anidados
+var listaEstudiantes = [
+    ["nora", 32],
+    ["gino", 3]
+]
+console.log(listaEstudiantes[1])
+
+// Acceso a elementos de datos arreglos
+var miArregloAcceso = [10, 20, 30]
+
+// Modificar datos de un arreglo
+miArregloAcceso[1] = 12
+console.log(miArregloAcceso)
+
+miArregloAcceso[1] = [, 2, 3]
+console.log(miArregloAcceso)
+console.log(miArregloAcceso[1][0])
+
+// push elimina el ultimo elemento
+
+var estaciones = ["Primavera", "Verano"]
+estaciones.push("Invierno")
+estaciones
+estacion = estaciones.pop()
+estaciones
+estacion
+// Eliminar primer elemento
+estacion = estaciones.shift()
+estacion
+
+// Shift- Agregar primer elemento dentro del arreglo
+
+estaciones.unshift("Otoño")
+estaciones
